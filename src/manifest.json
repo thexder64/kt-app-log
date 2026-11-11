@@ -1,0 +1,27 @@
+{
+  "manifest_version": 1,
+  "version": "1.0.0",
+  "type": "APP",
+  "name": {
+    "en": "My React Plugin",
+    "ja": "私のReactプラグイン"
+  },
+  "icon": "image/icon.png",
+  "description": {
+    "en": "React-powered kintone plugin",
+    "ja": "Reactで作ったkintoneプラグイン"
+  },
+  "homepage_url": {
+    "ja": "https://example.com/ja/",
+    "en": "https://example.com/en/"
+  },
+  "desktop": {
+    "js": ["js/plugin.js"],
+    "css": []
+  },
+  "config": {
+    "html": "html/config.html",
+    "js": ["js/config.js"],
+    "css": ["css/config.css"]
+  }
+}
